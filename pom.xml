@@ -20,7 +20,9 @@
     <properties>
         <java.version>11</java.version>
         <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
-         <sonar.organization>ftvc-org</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.organization>ftvc-org</sonar.organization>
+        <sonar.projectKey>github-actions-maven-release-sample</sonar.projectKey>
     </properties>
     <scm>
         <connection>scm:git:${project.scm.url}</connection>
