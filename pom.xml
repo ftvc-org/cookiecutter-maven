@@ -20,8 +20,8 @@
     <properties>
         <java.version>11</java.version>
         <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
+         <sonar.organization>ftvc-org</sonar.organization>
     </properties>
-
     <scm>
         <connection>scm:git:${project.scm.url}</connection>
         <developerConnection>scm:git:${project.scm.url}</developerConnection>
