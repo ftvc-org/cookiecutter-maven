@@ -1,0 +1,9 @@
+openapi: 3.0.1
+info:
+  title: {{ cookiecutter['_@cortex_inputs']['service_details']['name'] }}
+  description: {{ cookiecutter['_@cortex_inputs']['service_details']['description'] }}
+  x-cortex-tag: {{ cookiecutter['_@cortex_inputs']['service_details']['tag'] }}
+  x-cortex-type: service
+  x-cortex-git:
+    github:
+      repository: {{ cookiecutter['_@cortex_inputs']['git']['repository']['org'] }}/{{ cookiecutter['_@cortex_inputs']['git']['repository']['repoName'] }}
