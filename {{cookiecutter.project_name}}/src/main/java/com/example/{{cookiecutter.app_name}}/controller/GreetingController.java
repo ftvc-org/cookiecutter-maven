@@ -1,6 +1,6 @@
-package com.example.demo.controller;
+package com.example.{{cookiecutter.app_name}}.controller;
 
-import com.example.demo.service.GreetingService;
+import com.example.{{cookiecutter.app_name}}.service.GreetingService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

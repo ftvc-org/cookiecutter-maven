@@ -1,6 +1,6 @@
-package com.example.demo.controller;
+package com.example.{{cookiecutter.app_name}}.controller;
 
-import com.example.demo.DemoApplication;
+import com.example.{{cookiecutter.app_name}}.DemoApplication;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.example.{{cookiecutter.app_name}}.service;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

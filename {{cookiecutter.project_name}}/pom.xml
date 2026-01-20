@@ -22,12 +22,12 @@
         <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.organization>ftvc-org</sonar.organization>
-        <sonar.projectKey>github-actions-maven-release-sample</sonar.projectKey>
+        <sonar.projectKey>{{cookiecutter.app_name}}</sonar.projectKey>
     </properties>
     <scm>
         <connection>scm:git:${project.scm.url}</connection>
         <developerConnection>scm:git:${project.scm.url}</developerConnection>
-        <url>git@github.com:qcastel/github-actions-maven-release-sample.git</url>
+        <url>git@github.com:qcastel/{{cookiecutter.app_name}}.git</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -97,7 +97,7 @@
 <distributionManagement>
   <repository>
     <id>github</id>
-    <url>https://maven.pkg.github.com/ftvc-org/github-actions-maven-release-sample</url>
+    <url>https://maven.pkg.github.com/ftvc-org/{{cookiecutter.app_name}}</url>
   </repository>
 </distributionManagement>
 
