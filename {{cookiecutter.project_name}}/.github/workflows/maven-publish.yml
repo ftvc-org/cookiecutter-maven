@@ -44,7 +44,6 @@ jobs:
     - name: Build and analyze with Sonar
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      run: echo "REPO_NAME=$(basename $GITHUB_REPOSITORY)" >> $GITHUB_ENV
       run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=ftvc-org_$REPO_NAME -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
 
 
