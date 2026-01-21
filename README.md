@@ -1,1 +1,1 @@
-{{cookiecutter.project_name}}
+Sample Maven Template
