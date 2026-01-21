@@ -1,7 +1,7 @@
 {
 	"project_name": "Simple Spring Boot App",
 	"app_name": "simpleapp",
-	"_copy_without_render": [".mvn", "img"],
+	"_copy_without_render": [".mvn", "img", ".github"],
 	"version": "0.1.2",
 	"creator": ""
 }
