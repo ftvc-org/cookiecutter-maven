@@ -7,3 +7,7 @@ info:
   x-cortex-git:
     github:
       repository: {{ cookiecutter['_@cortex_inputs']['git']['repository']['org'] }}/{{ cookiecutter['_@cortex_inputs']['git']['repository']['repoName'] }}
+  x-cortex-static-analysis:
+    sonarqube:
+      alias: SonarCloud
+      project: {{ cookiecutter['_@cortex_inputs']['git']['repository']['org'] }}_{{ cookiecutter['_@cortex_inputs']['git']['repository']['repoName'] }}
